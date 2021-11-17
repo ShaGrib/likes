@@ -102,4 +102,5 @@ header {
     border-color: black;
     border-style: solid;
     box-shadow: 3px 3px black;
+    cursor: pointer;
 }

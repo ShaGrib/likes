@@ -1,9 +1,11 @@
-var likes1 = 9;
-var likes2 = 12;
-var likes3 = 9;
-var moreLikes = document.querySelector("#likes");
+var likes = [9, 12, 9];
+var h3 = [
+    document.querySelector("#like1"),
+    document.querySelector("#like2"),
+    document.querySelector("#like3")
+];
 
-function addlikes() {
-    likes++;
-    moreLikes.innerText = likes;
+function like(id) {
+    likes[id]++;
+    h3[id].innerHTML = likes[id];
 }
