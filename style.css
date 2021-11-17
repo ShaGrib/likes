@@ -1,0 +1,105 @@
+/* reset style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utilities style */
+
+.container {
+    width: 600px;
+    height: 580px;
+    margin: 0 auto;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.jc-left {
+    justify-content: left;
+}
+
+.col-l{
+    flex: 1;
+}
+
+.col-r{
+    flex: 2;
+    gap: 1.5rem;
+}
+
+.col-l, .col-r {
+    flex-direction: column;
+}
+
+.nav-title { 
+    margin-right: auto;
+    margin-left: 10px;
+    margin: 10px auto 10px 10px;
+    color: white;
+}
+
+header { 
+    justify-content:left;
+    max-width: 600px;
+    min-height: 4rem;
+    background-color: black; 
+    margin: 0 auto;
+}
+
+#midbar {
+    margin: 15px auto;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+/* user style */
+
+.user-card {
+    padding: 2rem;
+    height: 500px;
+    border: 3px solid black;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+#user-img {
+    height: 80px;
+    margin: .5rem;
+}
+/* feed style */
+
+.feed-card {
+    padding: 1.5rem;
+    border:  3px solid black;
+}
+
+.rightbox {
+    align-content: flex-end;
+    width: 100%;
+    margin-left: 20rem;
+}
+
+.message-box {
+    margin: 1.5rem;
+}
+
+.btn{
+    width: 4rem;
+    padding: 5px;
+    background-color:yellow;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 3px 3px black;
+}
